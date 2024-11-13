@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Maker</title>
+    <link src="index.css" />
+</head>
+<body>
+        <div class="Container">
+            <h1>Bookmark your website</h1>
+            <form id="formSubmit">
+                    <div>
+                        <label htmlFor="siteNameInput"> site Name </label>
+                        <input type="text" id="siteNameInput" placeholder="Enter Site Name" />
+                        <p id="siteNameErrMsg"> </p>
+                    </div>
+                    <div>
+                        <label htmlFor="siteUrlInput"> site Url </label>
+                        <input type="text" id="siteUrlInput" placeholder="Enter Site Url" />
+                        <p id="siteUrlErrMsg"> </p>
+                    </div>
+                    <div>
+                        <button id="btn">Add to Bookmark</button>
+                    </div>
+                    <div>
+                        <ul id="unorderedList">
+
+                        </ul>
+                    </div>
+            </form>
+        </div>
+    <script type="text/javascript" src="index.js" />
+</body>
+</html>
